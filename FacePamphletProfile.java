@@ -33,6 +33,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		this.name = name;
 		image = null;
 		status = "";
+		friends = new ArrayList<String>();
 /**		image = imageMap.get(name);
 		status = statusMap.get(name);
 		friends = new ArrayList<String>();
