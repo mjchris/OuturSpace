@@ -25,7 +25,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
  * the profile.
  */
 	public FacePamphletProfile(String name) {
-		// You fill this in
+		this.name = name;
 	}
 
 /* Method: getName() */
