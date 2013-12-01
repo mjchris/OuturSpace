@@ -141,6 +141,9 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /**
  * This method deletes the profile.
  */
+	public void delete() {
+		
+	}
 
 /* Method toString() */
 /** 
