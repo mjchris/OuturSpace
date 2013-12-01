@@ -125,7 +125,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
  * friends in this profile.
  */ 
 	public String toString() {
-		String toString = name;
+		String toString = name + " (";
 		return toString;
 	}
 	
