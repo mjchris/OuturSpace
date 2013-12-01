@@ -12,6 +12,9 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class FacePamphlet extends ConsoleProgram implements FacePamphletConstants {
+	
+/* Instance variable for FacePamphletProfile profile */
+	FacePamphletProfile profile;
 
 /* Instance variable for JTextFields */
 	private JTextField nameField = new JTextField(TEXT_FIELD_SIZE);
@@ -53,7 +56,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
  */
     public void actionPerformed(ActionEvent e) {
 		if(e.getActionCommand() == "Add" && !nameField.getText().isEmpty()) {
-			println("Add: " + nameField.getText());
+			profile = new FacePamphletProfile(nameField.getText());
 			nameField.setText("");
 		}
 		if(e.getActionCommand() == "Delete" && !nameField.getText().isEmpty()) {
