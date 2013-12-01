@@ -54,11 +54,11 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			nameField.setText("");
 		}
 		if(e.getActionCommand() == "Delete") {
-			println("Delete: " + nameField.getText())
+			println("Delete: " + nameField.getText());
 			nameField.setText("");
 		}
 		if(e.getActionCommand() == "Lookup") {
-			println("Lookup: " + nameField.getText())
+			println("Lookup: " + nameField.getText());
 			nameField.setText("");
 		}
 		if(e.getSource() == statusField || e.getActionCommand() == "Change Status") {
