@@ -70,7 +70,8 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			pictureField.setText("");
 		}
 		if(e.getSource() == friendField || e.getActionCommand() == "Add Friend") {
-			
+			println("Add Friend: " + friendField.getText());
+			friendField.setText("");
 		}
 	}
 
