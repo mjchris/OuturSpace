@@ -76,15 +76,16 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		// You fill this in
 	}
 
-	/** 
-	 * This method adds the named friend to this profile's list of 
-	 * friends.  It returns true if the friend's name was not already
-	 * in the list of friends for this profile (and the name is added 
-	 * to the list).  The method returns false if the given friend name
-	 * was already in the list of friends for this profile (in which 
-	 * case, the given friend name is not added to the list of friends 
-	 * a second time.)
-	 */
+/* Method: addFriend(friend) */
+/** 
+ * This method adds the named friend to this profile's list of 
+ * friends.  It returns true if the friend's name was not already
+ * in the list of friends for this profile (and the name is added 
+ * to the list).  The method returns false if the given friend name
+ * was already in the list of friends for this profile (in which 
+ * case, the given friend name is not added to the list of friends 
+ * a second time.)
+ */
 	public boolean addFriend(String friend) {
 		// You fill this in.  Currently always returns true.
 		return true;
