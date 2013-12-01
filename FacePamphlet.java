@@ -49,27 +49,27 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
  * clicked or interactors are used.
  */
     public void actionPerformed(ActionEvent e) {
-		if(e.getActionCommand() == "Add") {
+		if(e.getActionCommand() == "Add" && !nameField.getText().isEmpty()) {
 			println("Add: " + nameField.getText());
 			nameField.setText("");
 		}
-		if(e.getActionCommand() == "Delete") {
+		if(e.getActionCommand() == "Delete" && !nameField.getText().isEmpty()) {
 			println("Delete: " + nameField.getText());
 			nameField.setText("");
 		}
-		if(e.getActionCommand() == "Lookup") {
+		if(e.getActionCommand() == "Lookup" && !nameField.getText().isEmpty()) {
 			println("Lookup: " + nameField.getText());
 			nameField.setText("");
 		}
-		if(e.getSource() == statusField || e.getActionCommand() == "Change Status") {
+		if(e.getSource() == statusField || e.getActionCommand() == "Change Status" && !statusField.getText().isEmpty()) {
 			println("Change Status: " + statusField.getText());
 			statusField.setText("");
 		}
-		if(e.getSource() == pictureField || e.getActionCommand() == "Change Picture") {
+		if(e.getSource() == pictureField || e.getActionCommand() == "Change Picture" && !pictureField.getText().isEmpty()) {
 			println("Change Picture: " + pictureField.getText());
 			pictureField.setText("");
 		}
-		if(e.getSource() == friendField || e.getActionCommand() == "Add Friend") {
+		if(e.getSource() == friendField || e.getActionCommand() == "Add Friend" && !friendField.getText().isEmpty()) {
 			println("Add Friend: " + friendField.getText());
 			friendField.setText("");
 		}
