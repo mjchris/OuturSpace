@@ -133,7 +133,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
  */ 
 	public Iterator<String> getFriends() {
 		Iterator<String> friendsIterator = friends.iterator();
-		return null;
+		return friendsIterator;
 	}
 
 /* Method toString() */
