@@ -13,11 +13,16 @@ import java.util.*;
 
 public class FacePamphletProfile implements FacePamphletConstants {
 	
-/* Instance variable for name, image */
+/* Instance variables for name, image, status, and friends */
 	public String name;
 	public GImage image;
 	public String status;
 	public ArrayList<String> friends;
+	
+/* Instance variables for imageMap, statusMap, and friendsMap */
+	public Map<String, GImage> imageMap;
+	public Map<String, String> statusMap;
+	public Map<String, ArrayList<String>> friendsMap;
 	
 /* Constructor: FacePamphletProfile(name) */
 /** 
