@@ -114,18 +114,19 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		// You fill this in.  Currently always returns null.
 		return null;
 	}
-	
-	/** 
-	 * This method returns a string representation of the profile.  
-	 * This string is of the form: "name (status): list of friends", 
-	 * where name and status are set accordingly and the list of 
-	 * friends is a comma separated list of the names of all of the 
-	 * friends in this profile.
-	 * 
-	 * For example, in a profile with name "Alice" whose status is 
-	 * "coding" and who has friends Don, Chelsea, and Bob, this method 
-	 * would return the string: "Alice (coding): Don, Chelsea, Bob"
-	 */ 
+
+/* Method toString() */
+/** 
+ * This method returns a string representation of the profile.  
+ * This string is of the form: "name (status): list of friends", 
+ * where name and status are set accordingly and the list of 
+ * friends is a comma separated list of the names of all of the 
+ * friends in this profile.
+ * 
+ * For example, in a profile with name "Alice" whose status is 
+ * "coding" and who has friends Don, Chelsea, and Bob, this method 
+ * would return the string: "Alice (coding): Don, Chelsea, Bob"
+ */ 
 	public String toString() {
 		// You fill this in.  Currently always returns the empty string.
 		return "";
