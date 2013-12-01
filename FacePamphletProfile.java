@@ -93,14 +93,14 @@ public class FacePamphletProfile implements FacePamphletConstants {
  * case, the given friend name is not added to the list of friends 
  * a second time.)
  */
-	public boolean addFriend(String friend) {
+	public void addFriend(String friend) {
 		boolean result = !friends.contains(friend);
 		if(result) {
 			friends.add(friend);
 		}
 /**		friendsMap.remove(friends);
 		friendsMap.put(name, friends); */
-		return result;
+		//return result;
 	}
 
 /* Method: removeFriend(friend) */
