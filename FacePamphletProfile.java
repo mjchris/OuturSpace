@@ -121,7 +121,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 				friends.remove(friend);
 			}
 		} else {
-			
+			result = false;
 		}
 		return result;
 	}
