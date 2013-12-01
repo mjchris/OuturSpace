@@ -74,7 +74,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /* Method: setStatus(status) */
 /** This method sets the status associated with the profile. */ 
 	public void setStatus(String status) {
-		// You fill this in
+		statusMap.put(name, status);
 	}
 
 /* Method: addFriend(friend) */
