@@ -26,6 +26,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
  * initialization that needs to be performed.
  */
 	public void init() {
+		add(new JLabel("Name"), NORTH);
 		
     }
     
