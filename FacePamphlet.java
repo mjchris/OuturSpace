@@ -24,11 +24,11 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
     }
     
 /* Method: actionPerformed(e) */
-    /**
-     * This class is responsible for detecting when the buttons are
-     * clicked or interactors are used, so you will have to add code
-     * to respond to these actions.
-     */
+/**
+ * This class is responsible for detecting when the buttons are
+ * clicked or interactors are used, so you will have to add code
+ * to respond to these actions.
+ */
     public void actionPerformed(ActionEvent e) {
 		// You fill this in as well as add any additional methods
 	}
