@@ -39,7 +39,9 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 		add(new JLabel(EMPTY_LABEL_TEXT), WEST);
 		add(friendField, WEST);
 		add(new JButton("Add Friend"), WEST);
-		nameField.addActionListener(this);
+		statusField.addActionListener(this);
+		pictureField.addActionListener(this);
+		friendField.addActionListener(this);
 		addActionListeners();
     }
     
