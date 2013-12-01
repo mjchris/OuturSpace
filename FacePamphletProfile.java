@@ -100,8 +100,8 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		} else {
 			result = true;
 			friends.add(friend);
-			friendsMap.put(name, friends);
 		}
+		friendsMap.put(name, friends);
 		return result;
 	}
 
