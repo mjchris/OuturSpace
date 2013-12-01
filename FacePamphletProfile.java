@@ -141,10 +141,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
  * friends in this profile.
  */ 
 	public String toString() {
-		String toString = name + " (";
-		if(statusMap.get(name) != null) {
-			toString += statusMap.get(name);
-		}
+		String toString = name + " (" + status + "):";
 		toString += "):";
 		if(friendsMap.get(name) != null) {
 			while(getFriends().hasNext()) {
