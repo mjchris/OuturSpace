@@ -18,11 +18,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
 	public GImage image;
 	public String status;
 	public ArrayList<String> friends;
-
-/* Instance variables for imageMap, statusMap, and friendsMap */
-/**	public Map<String, GImage> imageMap = new HashMap<String, GImage>();
-	public Map<String, String> statusMap = new HashMap<String, String>();
-	public Map<String, ArrayList<String>> friendsMap = new HashMap<String, ArrayList<String>>(); */
 	
 /* Constructor: FacePamphletProfile(name) */
 /** 
@@ -34,10 +29,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		image = null;
 		status = "";
 		friends = new ArrayList<String>();
-/**		image = imageMap.get(name);
-		status = statusMap.get(name);
-		friends = new ArrayList<String>();
-		friends = friendsMap.get(name); */
 	}
 
 /* Method: getName() */
@@ -60,9 +51,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /** This method sets the image associated with the profile. */ 
 	public void setImage(GImage image) {
 		this.image = image;
-/**		imageMap.remove(image);
-		image.setSize(IMAGE_WIDTH, IMAGE_HEIGHT);
-		imageMap.put(name, image); */
 	}
 
 /* Method: getStatus() */
@@ -79,8 +67,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /** This method sets the status associated with the profile. */ 
 	public void setStatus(String status) {
 		this.status = status;
-/**		statusMap.remove(name);
-		statusMap.put(name, status); */
 	}
 
 /* Method: addFriend(friend) */
@@ -98,8 +84,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		if(result) {
 			friends.add(friend);
 		}
-/**		friendsMap.remove(friends);
-		friendsMap.put(name, friends); */
 		return result;
 	}
 
@@ -117,8 +101,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		if(result) {
 			friends.remove(friend);
 		}
-/**		friendsMap.remove(friends);
-		friendsMap.put(name, friends); */
 		return result;
 	}
 
