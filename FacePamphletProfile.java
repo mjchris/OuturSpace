@@ -56,12 +56,13 @@ public class FacePamphletProfile implements FacePamphletConstants {
 	public void setImage(GImage image) {
 		// You fill this in
 	}
-	
-	/** 
-	 * This method returns the status associated with the profile.
-	 * If there is no status associated with the profile, the method
-	 * returns the empty string ("").
-	 */ 
+
+/* Method: getStatus() */
+/** 
+ * This method returns the status associated with the profile.
+ * If there is no status associated with the profile, the method
+ * returns the empty string ("").
+ */ 
 	public String getStatus() {
 		return status;
 	}
