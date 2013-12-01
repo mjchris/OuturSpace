@@ -114,7 +114,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
  * the given friend name could not be removed.)
  */
 	public boolean removeFriend(String friend) {
-		// You fill this in.  Currently always returns false.
 		return false;
 	}
 
