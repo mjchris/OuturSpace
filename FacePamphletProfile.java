@@ -145,6 +145,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		Iterator<String> friendsIterator = friends.iterator();
 		while(friendsIterator.hasNext()) {
 			toString += " " + friendsIterator.next() + ",";
+			toString = toString.substring(0, toString.length() - 2);
 		}
 /**		while(getFriends().hasNext()) {
 			toString += " " + getFriends().next();
