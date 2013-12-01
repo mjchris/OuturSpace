@@ -122,10 +122,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
  * where name and status are set accordingly and the list of 
  * friends is a comma separated list of the names of all of the 
  * friends in this profile.
- * 
- * For example, in a profile with name "Alice" whose status is 
- * "coding" and who has friends Don, Chelsea, and Bob, this method 
- * would return the string: "Alice (coding): Don, Chelsea, Bob"
  */ 
 	public String toString() {
 		// You fill this in.  Currently always returns the empty string.
