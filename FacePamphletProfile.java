@@ -37,7 +37,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 	}
 
 /* Method: getName() */
-/** This method returns the name associated with the profile. */ 
+/** This method returns the name associated with the profile. */
 	public String getName() {
 		return name;
 	}
@@ -46,7 +46,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /** 
  * This method returns the image associated with the profile.  
  * If there is no image associated with the profile, the method
- * returns null. */ 
+ * returns null. */
 	public GImage getImage() {
 		return image;
 	}
