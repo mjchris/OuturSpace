@@ -137,14 +137,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		return friendsIterator;
 	}
 	
-/* Method: delete() */
-/**
- * This method deletes the profile.
- */
-	public void delete() {
-		
-	}
-
 /* Method toString() */
 /** 
  * This method returns a string representation of the profile.  
