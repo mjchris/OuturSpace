@@ -47,7 +47,9 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
  * clicked or interactors are used.
  */
     public void actionPerformed(ActionEvent e) {
-		// You fill this in as well as add any additional methods
+		if(e.getActionCommand() == "Name") {
+			
+		}
 	}
 
 }
