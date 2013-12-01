@@ -16,6 +16,8 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /* Instance variable for name, image */
 	public String name;
 	public GImage image;
+	public String status;
+	public ArrayList<String> friends;
 	
 /* Constructor: FacePamphletProfile(name) */
 /** 
