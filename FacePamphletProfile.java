@@ -105,6 +105,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		return false;
 	}
 
+/* Method:
 	/** 
 	 * This method returns an iterator over the list of friends 
 	 * associated with the profile.
