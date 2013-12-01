@@ -105,11 +105,11 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		return false;
 	}
 
-/* Method:
-	/** 
-	 * This method returns an iterator over the list of friends 
-	 * associated with the profile.
-	 */ 
+/* Method: getFriends() */
+/** 
+ * This method returns an iterator over the list of friends 
+ * associated with the profile.
+ */ 
 	public Iterator<String> getFriends() {
 		// You fill this in.  Currently always returns null.
 		return null;
