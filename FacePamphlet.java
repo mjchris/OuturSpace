@@ -13,11 +13,12 @@ import javax.swing.*;
 
 public class FacePamphlet extends Program implements FacePamphletConstants {
 
-	/**
-	 * This method has the responsibility for initializing the 
-	 * interactors in the application, and taking care of any other 
-	 * initialization that needs to be performed.
-	 */
+/* Method: init() */
+/**
+ * This method has the responsibility for initializing the 
+ * interactors in the application, and taking care of any other 
+ * initialization that needs to be performed.
+ */
 	public void init() {
 		// You fill this in
     }
