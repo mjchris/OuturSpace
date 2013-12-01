@@ -132,7 +132,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		toString += "):";
 		if(friendsMap.get(name) != null) {
 			for(int i = 0; i < friendsMap.get(name).size(); i++) {
-				toString +=
+				toString += " " + 
 			}
 		}
 		return toString;
