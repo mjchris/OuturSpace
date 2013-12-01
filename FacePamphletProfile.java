@@ -22,7 +22,8 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		// You fill this in
 	}
 
-	/** This method returns the name associated with the profile. */ 
+/* Method: getName() */
+/** This method returns the name associated with the profile. */ 
 	public String getName() {
 		// You fill this in.  Currently always returns the empty string.
 		return "";
