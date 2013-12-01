@@ -51,7 +51,8 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		return image;
 	}
 
-	/** This method sets the image associated with the profile. */ 
+/* Method: setImage(image) */
+/** This method sets the image associated with the profile. */ 
 	public void setImage(GImage image) {
 		// You fill this in
 	}
