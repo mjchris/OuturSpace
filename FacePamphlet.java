@@ -76,7 +76,6 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 		if((e.getSource().equals(pictureField) || e.getActionCommand() == "Change Picture") && !pictureField.getText().isEmpty()) {
 			GImage image = new GImage(pictureField.getText());
 			profile.setImage(image);
-			profile.getImage();
 			pictureField.setText("");
 		}
 		if((e.getSource().equals(friendField) || e.getActionCommand() == "Add Friend") && !friendField.getText().isEmpty()) {
