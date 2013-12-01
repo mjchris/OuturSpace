@@ -13,11 +13,12 @@ import java.util.*;
 
 public class FacePamphletProfile implements FacePamphletConstants {
 	
-	/** 
-	 * Constructor
-	 * This method takes care of any initialization needed for
-	 * the profile.
-	 */
+/* Constructor: FacePamphletProfile(name) */
+/** 
+ * Constructor
+ * This method takes care of any initialization needed for
+ * the profile.
+ */
 	public FacePamphletProfile(String name) {
 		// You fill this in
 	}
