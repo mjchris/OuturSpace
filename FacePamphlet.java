@@ -14,7 +14,7 @@ import javax.swing.*;
 public class FacePamphlet extends ConsoleProgram implements FacePamphletConstants {
 	
 /* Instance variable for FacePamphletProfile profile */
-	FacePamphletProfile profile;
+	public FacePamphletProfile profile;
 
 /* Instance variable for JTextFields */
 	private JTextField nameField = new JTextField(TEXT_FIELD_SIZE);
