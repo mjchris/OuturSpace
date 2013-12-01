@@ -67,11 +67,11 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			println("Change Status: " + statusField.getText());
 			statusField.setText("");
 		}
-		if(e.getSource().equals(pictureField) || e.getActionCommand() == "Change Picture" && !pictureField.getText().isEmpty()) {
+		if((e.getSource().equals(pictureField) || e.getActionCommand() == "Change Picture") && !pictureField.getText().isEmpty()) {
 			println("Change Picture: " + pictureField.getText());
 			pictureField.setText("");
 		}
-		if(e.getSource().equals(friendField) || e.getActionCommand() == "Add Friend" && !friendField.getText().isEmpty()) {
+		if((e.getSource().equals(friendField) || e.getActionCommand() == "Add Friend") && !friendField.getText().isEmpty()) {
 			println("Add Friend: " + friendField.getText());
 			friendField.setText("");
 		}
