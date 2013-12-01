@@ -100,7 +100,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		}
 /**		friendsMap.remove(friends);
 		friendsMap.put(name, friends); */
-		//return result;
+//		return result;
 	}
 
 /* Method: removeFriend(friend) */
