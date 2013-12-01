@@ -15,7 +15,6 @@ public class FacePamphletProfile implements FacePamphletConstants {
 	
 /* Constructor: FacePamphletProfile(name) */
 /** 
- * Constructor
  * This method takes care of any initialization needed for
  * the profile.
  */
