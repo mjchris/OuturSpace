@@ -46,7 +46,8 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /** 
  * This method returns the image associated with the profile.  
  * If there is no image associated with the profile, the method
- * returns null. */
+ * returns null.
+ */
 	public GImage getImage() {
 		return image;
 	}
