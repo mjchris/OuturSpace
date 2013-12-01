@@ -26,7 +26,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
  * initialization that needs to be performed.
  */
 	public void init() {
-		// You fill this in
+		
     }
     
 /* Method: actionPerformed(e) */
