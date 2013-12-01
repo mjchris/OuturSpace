@@ -20,8 +20,8 @@ public class FacePamphletProfile implements FacePamphletConstants {
 	public ArrayList<String> friends;
 	
 /* Instance variables for imageMap, statusMap, and friendsMap */
-	public Map<String, GImage> imageMap;
-	public Map<String, String> statusMap;
+	public Map<String, GImage> imageMap = new HashMap<String, GImage>();
+	public Map<String, String> statusMap = new HashMap<String, GImage>()';'
 	public Map<String, ArrayList<String>> friendsMap;
 	
 /* Constructor: FacePamphletProfile(name) */
