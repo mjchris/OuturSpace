@@ -11,8 +11,7 @@ import acm.util.*;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class FacePamphlet extends Program 
-					implements FacePamphletConstants {
+public class FacePamphlet extends Program implements FacePamphletConstants {
 
 	/**
 	 * This method has the responsibility for initializing the 
