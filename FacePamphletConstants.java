@@ -18,7 +18,7 @@ public interface FacePamphletConstants {
 	public static final int TEXT_FIELD_SIZE = 15;
 
 	/** Text to be used to create an "empty" label to put space
-	 *  between interactors on EAST border of application.  Note this
+	 *  between interactors on WEST border of application.  Note this
 	 *  label is not actually the empty string, but rather a single space */
 	public static final String EMPTY_LABEL_TEXT = " ";
 
