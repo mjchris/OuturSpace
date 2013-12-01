@@ -55,6 +55,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /* Method: setImage(image) */
 /** This method sets the image associated with the profile. */ 
 	public void setImage(GImage image) {
+		imageMap.remove(name);
 		imageMap.put(name, image);
 	}
 
