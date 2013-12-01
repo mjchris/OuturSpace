@@ -49,7 +49,10 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
  * clicked or interactors are used.
  */
     public void actionPerformed(ActionEvent e) {
-		
+		if(e.getActionCommand() == "Add") {
+			println("Add: " + nameField.getText());
+			nameField.setText("");
+		}
 	}
 
 }
