@@ -18,11 +18,11 @@ public class FacePamphletProfile implements FacePamphletConstants {
 	public GImage image;
 	public String status;
 	public ArrayList<String> friends;
-	
+
 /* Instance variables for imageMap, statusMap, and friendsMap */
-	public Map<String, GImage> imageMap = new HashMap<String, GImage>();
+/**	public Map<String, GImage> imageMap = new HashMap<String, GImage>();
 	public Map<String, String> statusMap = new HashMap<String, String>();
-	public Map<String, ArrayList<String>> friendsMap = new HashMap<String, ArrayList<String>>();
+	public Map<String, ArrayList<String>> friendsMap = new HashMap<String, ArrayList<String>>(); */
 	
 /* Constructor: FacePamphletProfile(name) */
 /** 
