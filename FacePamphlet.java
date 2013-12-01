@@ -57,6 +57,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
     public void actionPerformed(ActionEvent e) {
 		if(e.getActionCommand() == "Add" && !nameField.getText().isEmpty()) {
 			profile = new FacePamphletProfile(nameField.getText());
+			println(profile.toString());
 			nameField.setText("");
 		}
 		if(e.getActionCommand() == "Delete" && !nameField.getText().isEmpty()) {
