@@ -114,7 +114,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		if(result) {
 			friends.remove(friend);
 		}
-		friendsMap.remove(name);
+		
 		friendsMap.put(name, friends);
 		if(friends != null) {
 			result = friends.contains(friend);
