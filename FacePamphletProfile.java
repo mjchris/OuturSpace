@@ -13,6 +13,9 @@ import java.util.*;
 
 public class FacePamphletProfile implements FacePamphletConstants {
 	
+/* Instance variable for name */
+	public String name;
+	
 /* Constructor: FacePamphletProfile(name) */
 /** 
  * This method takes care of any initialization needed for
@@ -25,8 +28,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /* Method: getName() */
 /** This method returns the name associated with the profile. */ 
 	public String getName() {
-		// You fill this in.  Currently always returns the empty string.
-		return "";
+		return name;
 	}
 
 	/** 
