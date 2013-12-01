@@ -65,7 +65,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
  */ 
 	public String getStatus() {
 		if(status == null) {
-			return("");
+			return "";
 		}
 		return status;
 	}
