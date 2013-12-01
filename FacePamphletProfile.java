@@ -91,7 +91,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
  */
 	public boolean addFriend(String friend) {
 		boolean result;
-		if(friendsMap.get(name) != null) {
+		if(friends != null) {
 			friendsMap.get(name).add(friend);
 		} else {
 			friendsMap.put(name, friends);
