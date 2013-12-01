@@ -13,6 +13,9 @@ import javax.swing.*;
 
 public class FacePamphlet extends Program implements FacePamphletConstants {
 
+/* Instance variable for JTextFields */
+	
+
 /* Method: init() */
 /**
  * This method has the responsibility for initializing the 
