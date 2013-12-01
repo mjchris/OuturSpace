@@ -127,6 +127,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 	public String toString() {
 		String toString = "";
 		
+		return toString;
 	}
 	
 }
