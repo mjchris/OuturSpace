@@ -91,14 +91,15 @@ public class FacePamphletProfile implements FacePamphletConstants {
 		return true;
 	}
 
-	/** 
-	 * This method removes the named friend from this profile's list
-	 * of friends.  It returns true if the friend's name was in the 
-	 * list of friends for this profile (and the name was removed from
-	 * the list).  The method returns false if the given friend name 
-	 * was not in the list of friends for this profile (in which case,
-	 * the given friend name could not be removed.)
-	 */
+/* Method: removeFriend(friend) */
+/** 
+ * This method removes the named friend from this profile's list
+ * of friends.  It returns true if the friend's name was in the 
+ * list of friends for this profile (and the name was removed from
+ * the list).  The method returns false if the given friend name 
+ * was not in the list of friends for this profile (in which case,
+ * the given friend name could not be removed.)
+ */
 	public boolean removeFriend(String friend) {
 		// You fill this in.  Currently always returns false.
 		return false;
