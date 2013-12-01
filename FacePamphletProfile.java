@@ -13,8 +13,9 @@ import java.util.*;
 
 public class FacePamphletProfile implements FacePamphletConstants {
 	
-/* Instance variable for name */
+/* Instance variable for name, image */
 	public String name;
+	public GImage image;
 	
 /* Constructor: FacePamphletProfile(name) */
 /** 
@@ -36,8 +37,7 @@ public class FacePamphletProfile implements FacePamphletConstants {
 	 * If there is no image associated with the profile, the method
 	 * returns null. */ 
 	public GImage getImage() {
-		// You fill this in.  Currently always returns null.
-		return null;
+		return image;
 	}
 
 	/** This method sets the image associated with the profile. */ 
