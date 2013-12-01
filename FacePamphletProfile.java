@@ -115,7 +115,9 @@ public class FacePamphletProfile implements FacePamphletConstants {
  */
 	public boolean removeFriend(String friend) {
 		boolean result;
-		
+		if(friends != null) {
+			result = friends.contains(friend);
+		}
 		return result;
 	}
 
