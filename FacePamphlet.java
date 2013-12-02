@@ -95,7 +95,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 		if((e.getSource().equals(statusField) || e.getActionCommand() == "Change Status") && !statusField.getText().isEmpty()) {
 			if(currentProfile != null) {
 				currentProfile.setStatus(statusField.getText());
-				
+				database.addProfile(currentProfile);
 			} else {
 				println("Select a profile first.");
 			}
