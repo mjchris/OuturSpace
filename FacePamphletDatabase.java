@@ -24,7 +24,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 	
 /* Method addProfile(profile) */
 /** 
- * This method adds the given profile to the database.  If the 
+ * This method adds the given profile to the database. If the 
  * name associated with the profile is the same as an existing 
  * name in the database, the existing profile is replaced by 
  * the new profile passed in.
