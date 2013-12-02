@@ -103,14 +103,19 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			statusField.setText("");
 		}
 		if((e.getSource().equals(pictureField) || e.getActionCommand() == "Change Picture") && !pictureField.getText().isEmpty()) {
-			try {
-				GImage image = new GImage(pictureField.getText());
-				currentProfile.setImage(image);
-				database.addProfile(currentProfile);
-				println("Change Picture: " + pictureField.getText() + ": " + currentProfile.toString());
-			} catch(ErrorException ex) {
+			if(currentProfile != null) {
+				try {
+					GImage image = new GImage(pictureField.getText());
+					currentProfile.setImage(image);
+					database.addProfile(currentProfile);
+					println("Change Picture: " + pictureField.getText() + ": " + currentProfile.toString());
+				} catch(ErrorException ex) {
+					
+				}
+			} else {
 				
 			}
+
 			pictureField.setText("");
 		}
 		if((e.getSource().equals(friendField) || e.getActionCommand() == "Add Friend") && !friendField.getText().isEmpty()) {
