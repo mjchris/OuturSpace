@@ -10,8 +10,7 @@ import acm.graphics.*;
 import java.awt.*;
 import java.util.*;
 
-public class FacePamphletCanvas extends GCanvas 
-					implements FacePamphletConstants {
+public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants {
 	
 	/** 
 	 * Constructor
