@@ -159,7 +159,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 						println("That profile does not exist.");
 					}
 				} else {
-					println()
+					println("Users cannot be friends with themselves.");
 				}
 			} else {
 				println("Select a profile first.");
