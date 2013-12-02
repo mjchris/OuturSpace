@@ -44,16 +44,16 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 		return null;
 	}
 	
-	
-	/** 
-	 * This method removes the profile associated with the given name
-	 * from the database.  It also updates the list of friends of all
-	 * other profiles in the database to make sure that this name is
-	 * removed from the list of friends of any other profile.
-	 * 
-	 * If there is no profile in the database with the given name, then
-	 * the database is unchanged after calling this method.
-	 */
+/* Method: deleteProfile(name) */
+/** 
+ * This method removes the profile associated with the given name
+ * from the database.  It also updates the list of friends of all
+ * other profiles in the database to make sure that this name is
+ * removed from the list of friends of any other profile.
+ * 
+ * If there is no profile in the database with the given name, then
+ * the database is unchanged after calling this method.
+ */
 	public void deleteProfile(String name) {
 		// You fill this in
 	}
