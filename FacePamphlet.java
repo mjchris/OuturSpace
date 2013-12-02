@@ -139,7 +139,9 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 		if(e.getActionCommand() == "Add Friend" && !friendField.getText().isEmpty()) {
 			ArrayList<String> friendCheck = new ArrayList<String>();
 			if(currentProfile != null) {
-				if(friendField.getText() != currentProfile.getName()) {
+				if(friendField.getText() == currentProfile.getName()) {
+					println("Users cannot be friends with themselves.");
+				} else {
 					if(database.containsProfile(friendField.getText())) {
 						Iterator<String> friendsIterator = currentProfile.getFriends();
 						while(friendsIterator.hasNext()) {
@@ -158,8 +160,6 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 					} else {
 						println("That profile does not exist.");
 					}
-				} else {
-					println("Users cannot be friends with themselves.");
 				}
 			} else {
 				println("Select a profile first.");
