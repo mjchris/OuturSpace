@@ -30,7 +30,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
  * the new profile passed in.
  */
 	public void addProfile(FacePamphletProfile profile) {
-//		deleteProfile(profile.getName());
+		deleteProfile(profile.getName());
 		profileMap.put(profile.getName(), profile);
 	}
 
@@ -57,9 +57,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 	public void deleteProfile(String name) {
 		if(containsProfile(name)) {
 			while(profileMap.get(name).getFriends().hasNext()) {
-				FacePamphletProfile profile = profileMap.get(profileMap.get(name).getFriends().next());
-				profile.removeFriend(name);
-				addProfile(profile);
+				profileMap.get(profileMap.get(name).getFriends().next()).removeFriend(name);
 			}
 			profileMap.remove(name);
 		}
