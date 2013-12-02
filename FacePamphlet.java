@@ -155,6 +155,8 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 						} else {
 							println(currentProfile.getName() + " already has that friend.");
 						}	
+					} else {
+						
 					}
 				} else {
 					println("That profile does not exist.");
