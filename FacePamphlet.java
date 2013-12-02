@@ -121,7 +121,9 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			if(currentProfile != null) {
 				if(database.containsProfile(friendField.getText())) {
 					while(currentProfile.getFriends().hasNext()) {
-						
+						if(currentProfile.getFriends().next() == friendField.getText()) {
+							
+						}
 					}
 					currentProfile.addFriend(friendField.getText());
 				}
