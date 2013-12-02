@@ -22,13 +22,13 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 		profileMap = new HashMap<String, FacePamphletProfile>();
 	}
 	
-	
-	/** 
-	 * This method adds the given profile to the database.  If the 
-	 * name associated with the profile is the same as an existing 
-	 * name in the database, the existing profile is replaced by 
-	 * the new profile passed in.
-	 */
+/* Method addProfile(profile) */
+/** 
+ * This method adds the given profile to the database.  If the 
+ * name associated with the profile is the same as an existing 
+ * name in the database, the existing profile is replaced by 
+ * the new profile passed in.
+ */
 	public void addProfile(FacePamphletProfile profile) {
 		// You fill this in
 	}
