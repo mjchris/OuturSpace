@@ -30,7 +30,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
  * the new profile passed in.
  */
 	public void addProfile(FacePamphletProfile profile) {
-		String name = 
+		String name = profile.getName();
 	}
 
 /* Method: getProfile(name) */
