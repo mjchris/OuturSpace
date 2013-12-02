@@ -24,7 +24,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 /* Method: showMessage(msg) */
 /** 
  * This method displays a message string near the bottom of the 
- * canvas.  Every time this method is called, the previously 
+ * canvas. Every time this method is called, the previously 
  * displayed message (if any) is replaced by the new message text 
  * passed in.
  */
