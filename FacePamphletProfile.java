@@ -72,9 +72,9 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /* Method: addFriend(friend) */
 /** 
  * This method adds the named friend to this profile's list of 
- * friends.  It returns true if the friend's name was not already
+ * friends. It returns true if the friend's name was not already
  * in the list of friends for this profile (and the name is added 
- * to the list).  The method returns false if the given friend name
+ * to the list). The method returns false if the given friend name
  * was already in the list of friends for this profile (in which 
  * case, the given friend name is not added to the list of friends 
  * a second time.)
@@ -90,9 +90,9 @@ public class FacePamphletProfile implements FacePamphletConstants {
 /* Method: removeFriend(friend) */
 /** 
  * This method removes the named friend from this profile's list
- * of friends.  It returns true if the friend's name was in the 
+ * of friends. It returns true if the friend's name was in the 
  * list of friends for this profile (and the name was removed from
- * the list).  The method returns false if the given friend name 
+ * the list). The method returns false if the given friend name 
  * was not in the list of friends for this profile (in which case,
  * the given friend name could not be removed.)
  */
