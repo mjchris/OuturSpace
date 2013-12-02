@@ -97,7 +97,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 				currentProfile.setStatus(statusField.getText());
 				
 			} else {
-				
+				println("Select a profile first.")
 			}
 			profile.setStatus(statusField.getText());
 			println(profile.toString());
@@ -109,7 +109,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			pictureField.setText("");
 		}
 		if((e.getSource().equals(friendField) || e.getActionCommand() == "Add Friend") && !friendField.getText().isEmpty()) {
-			profile.addFriend(friendField.getText());
+			profile.addFriend(friendFielsd.getText());
 			println(profile.toString());
 			friendField.setText("");
 		}
