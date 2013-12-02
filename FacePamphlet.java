@@ -68,6 +68,9 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			nameField.setText("");
 		}
 		if(e.getActionCommand() == "Delete" && !nameField.getText().isEmpty()) {
+			if(database.containsProfile(nameField.getText())) {
+				println("Delet: " + nameField.getText());
+			}
 			println("Delete: " + nameField.getText());
 			nameField.setText("");
 		}
