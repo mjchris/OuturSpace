@@ -63,8 +63,6 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 				profile = new FacePamphletProfile(nameField.getText());
 				println("Add: new profile: " + profile.toString());
 			}
-			profile = new FacePamphletProfile(nameField.getText());
-			println(profile.toString());
 			nameField.setText("");
 		}
 		if(e.getActionCommand() == "Delete" && !nameField.getText().isEmpty()) {
