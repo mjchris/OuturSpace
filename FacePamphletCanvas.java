@@ -11,12 +11,12 @@ import java.awt.*;
 import java.util.*;
 
 public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants {
-	
-	/** 
-	 * Constructor
-	 * This method takes care of any initialization needed for 
-	 * the display
-	 */
+
+/* Constructor: FacePamphletCanvas() */
+/** 
+ * This method takes care of any initialization needed for 
+ * the display
+ */
 	public FacePamphletCanvas() {
 		// You fill this in
 	}
