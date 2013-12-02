@@ -159,7 +159,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 						println("That profile does not exist.");
 					}
 				} else {
-					
+					println()
 				}
 			} else {
 				println("Select a profile first.");
