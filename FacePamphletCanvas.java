@@ -46,7 +46,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
  * the user, and a list of the user's friends in the social network.
  */
 	public void displayProfile(FacePamphletProfile profile) {
-		// You fill this in
+		removeAll();
 	}
 
 }
