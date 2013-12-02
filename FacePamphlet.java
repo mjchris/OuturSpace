@@ -140,8 +140,6 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			} else {
 				println("Select a profile first.");
 			}
-			profile.addFriend(friendFielsd.getText());
-			println(profile.toString());
 			friendField.setText("");
 		}
 		if(e.getActionCommand() == "Remove Friend" && !friendField.getText().isEmpty()) {
