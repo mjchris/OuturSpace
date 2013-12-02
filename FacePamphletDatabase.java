@@ -56,7 +56,9 @@ public class FacePamphletDatabase implements FacePamphletConstants {
  * the database is unchanged after calling this method.
  */
 	public void deleteProfile(String name) {
-		// You fill this in
+		if(containsProfile(name)) {
+			
+		}
 	}
 
 /* Method: containsProfile(name) */
