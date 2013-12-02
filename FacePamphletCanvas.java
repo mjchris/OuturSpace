@@ -32,11 +32,10 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
  * passed in.
  */
 	public void showMessage(String msg) {
-		remove(this.msg);
-		this.msg = new GLabel(msg);
-		this.msg.setFont(MESSAGE_FONT);
-		this.msg.setLocation((getWidth() - this.msg.getWidth())/2, getHeight() - BOTTOM_MESSAGE_MARGIN);
-		add(this.msg);
+		GLabel label = new GLabel(msg);
+		label.setFont(MESSAGE_FONT);
+		label.setLocation((getWidth() - label.getWidth())/2, getHeight() - BOTTOM_MESSAGE_MARGIN);
+		add(label);
 	}
 	
 /* Method displayProfile(profile) */
