@@ -137,6 +137,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			pictureField.setText("");
 		}
 		if(e.getActionCommand() == "Add Friend" && !friendField.getText().isEmpty()) {
+			
 			ArrayList<String> friendCheck = new ArrayList<String>();
 			if(currentProfile != null) {
 				if(database.containsProfile(friendField.getText())) {
