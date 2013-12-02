@@ -107,7 +107,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 				GImage image = new GImage(pictureField.getText());
 				currentProfile.setImage(image);
 				database.addProfile(currentProfile);
-				println("Change Picture: " + pictureField.getText() + " " + currentProfile.toString());
+				println("Change Picture: " + pictureField.getText() + ": " + currentProfile.toString());
 			} catch(ErrorException ex) {
 				
 			}
