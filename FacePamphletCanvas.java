@@ -11,6 +11,9 @@ import java.awt.*;
 import java.util.*;
 
 public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants {
+	
+/* Instance variable for msg */
+	
 
 /* Constructor: FacePamphletCanvas() */
 /** 
