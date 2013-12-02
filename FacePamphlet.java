@@ -140,10 +140,9 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			ArrayList<String> friendCheck = new ArrayList<String>();
 			if(currentProfile != null) {
 				if(database.containsProfile(friendField.getText())) {
-					while(currentProfile.getFriends().hasNext()) {
-						friendCheck.add(currentProfile.getFriends().next());
-					}
-					println(friendCheck.toString());
+//					while(currentProfile.getFriends().hasNext()) {
+//						friendCheck.add(currentProfile.getFriends().next());
+//					}
 					if(!friendCheck.contains(friendField.getText())) {
 						currentProfile.addFriend(friendField.getText());
 						database.addProfile(currentProfile);
