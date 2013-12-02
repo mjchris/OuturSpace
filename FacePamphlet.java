@@ -82,7 +82,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 				profile = database.getProfile(nameField.getText());
 				println("Lookup: " + profile.toString());
 			} else {
-				println("That profile does not exist.");
+				println("Lookup: profile for " + nameField.getText() + " does not exist");
 			}
 			nameField.setText("");
 		}
