@@ -32,7 +32,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
  * passed in.
  */
 	public void showMessage(String msg) {
-		// You fill this in
+		remove(this.msg);
 	}
 	
 /* Method displayProfile(profile) */
