@@ -34,10 +34,10 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 	
 /* Method displayProfile(profile) */
 /** 
- * This method displays the given profile on the canvas.  The 
+ * This method displays the given profile on the canvas. The 
  * canvas is first cleared of all existing items (including 
  * messages displayed near the bottom of the screen) and then the 
- * given profile is displayed.  The profile display includes the 
+ * given profile is displayed. The profile display includes the 
  * name of the user from the profile, the corresponding image 
  * (or an indication that an image does not exist), the status of
  * the user, and a list of the user's friends in the social network.
