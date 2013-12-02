@@ -109,6 +109,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			} else {
 				println("Select a profile first.");
 			}
+			println("--> Current profile: " + currentProfile.toString());
 			statusField.setText("");
 		}
 		if((e.getSource().equals(pictureField) || e.getActionCommand() == "Change Picture") && !pictureField.getText().isEmpty()) {
