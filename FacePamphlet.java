@@ -133,6 +133,8 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 					} else {
 						
 					}
+				} else {
+					println("That ")
 				}
 			} else {
 				println("Select a profile first.");
