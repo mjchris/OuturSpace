@@ -33,7 +33,8 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 
 /* Constructor: FacePamphlet() */
 	public FacePamphlet() {
-		
+		canvas = new FacePamphletCanvas();
+		add(canvas);
 	}
 
 /* Method: init() */
