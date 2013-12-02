@@ -11,7 +11,7 @@ import java.util.*;
 public class FacePamphletDatabase implements FacePamphletConstants {
 	
 /* Instance variable for profileMap */
-	public Map<String, FacePamphletProfile> profileMap = new HashMap<String, FacePampheltProfile>();
+	public Map<String, FacePamphletProfile> profileMap = new HashMap<String, FacePamphletProfile>();
 
 /* Constructor: FacePamphletDatabase() */
 /** 
