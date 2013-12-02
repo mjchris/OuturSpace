@@ -174,7 +174,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 						friendCheck.add(currentProfile.getFriends().next());
 					}
 					if(friendCheck.contains(friendField.getText())) {
-						currentProfile.removeFriend(friendField.getText());
+						currentProfile.removeFriend(friendField.getText());s=
 						database.addProfile(currentProfile);
 						profile = database.getProfile(friendField.getText());
 						profile.removeFriend(currentProfile.getName());
