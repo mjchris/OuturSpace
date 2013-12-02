@@ -113,7 +113,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 					
 				}
 			} else {
-				
+				println("Select a profile first.");
 			}
 			pictureField.setText("");
 		}
