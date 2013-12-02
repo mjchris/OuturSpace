@@ -82,7 +82,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 				println("Delete: profile for " + nameField.getText() + " does not exist");
 			}
 			currentProfile = null;
-			println("--> Current profile: " + currentProfile.toString());
+			println("--> No current profile");
 			nameField.setText("");
 		}
 		if(e.getActionCommand() == "Lookup" && !nameField.getText().isEmpty()) {
