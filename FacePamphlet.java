@@ -96,7 +96,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			if(currentProfile != null) {
 				currentProfile.setStatus(statusField.getText());
 				database.addProfile(currentProfile);
-				println("Change Status: ")
+				println("Change Status: " + currentProfile.toString());
 			} else {
 				println("Select a profile first.");
 			}
