@@ -23,7 +23,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 	private FacePamphletDatabase database = new FacePamphletDatabase();
 	
 /* Instance variable for FacePamphletCanvas canvas */
-	private FacePamphletCanvas canvas;
+	private FacePamphletCanvas canvas = new FacePamphletCanvas();
 
 /* Instance variable for JTextFields */
 	private JTextField nameField = new JTextField(TEXT_FIELD_SIZE);
@@ -33,7 +33,6 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 
 /* Constructor: FacePamphlet() */
 	public FacePamphlet() {
-		canvas = new FacePamphletCanvas();
 		add(canvas);
 	}
 
