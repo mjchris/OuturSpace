@@ -79,6 +79,8 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 		if(e.getActionCommand() == "Lookup" && !nameField.getText().isEmpty()) {
 			if(database.containsProfile(nameField.getText())) {
 				println("Lookup: " + profile.toString());
+			} else {
+				println("That profile does not exist.");
 			}
 			println("Lookup: " + nameField.getText());
 			nameField.setText("");
