@@ -170,7 +170,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			ArrayList<String> friendCheck = new ArrayList<String>();
 			if(currentProfile != null) {
 				if(database.containsProfile(friendField.getText())) {
-					Iterator<String> iter = currentProfile.friends.iterator();
+					Iterator<String> iter = currentProfile.getFriends();
 					while(iter.hasNext()) {
 						friendCheck.add(iter.next());
 					}
