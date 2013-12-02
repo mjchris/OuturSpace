@@ -33,12 +33,12 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 		// You fill this in
 	}
 
-	
-	/** 
-	 * This method returns the profile associated with the given name 
-	 * in the database.  If there is no profile in the database with 
-	 * the given name, the method returns null.
-	 */
+/* Method: getProfile(name) */
+/** 
+ * This method returns the profile associated with the given name 
+ * in the database.  If there is no profile in the database with 
+ * the given name, the method returns null.
+ */
 	public FacePamphletProfile getProfile(String name) {
 		// You fill this in.  Currently always returns null.
 		return null;
