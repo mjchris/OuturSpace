@@ -16,8 +16,8 @@ import javax.swing.*;
 public class FacePamphlet extends Program implements FacePamphletConstants {
 	
 /* Instance variable for FacePamphletProfile profile and currentProfile */
-	public FacePamphletProfile profile;
-	public FacePamphletProfile currentProfile;
+	private FacePamphletProfile profile;
+	private FacePamphletProfile currentProfile;
 	
 /* Instance variable for FacePamphletDatabase database */
 	public FacePamphletDatabase database = new FacePamphletDatabase();
