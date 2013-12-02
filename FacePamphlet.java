@@ -140,20 +140,21 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			ArrayList<String> friendCheck = new ArrayList<String>();
 			if(currentProfile != null) {
 				if(database.containsProfile(friendField.getText())) {
-					Iterator<String> friendsIterator = currentProfile.getFriends();
-					while(friendsIterator.hasNext()) {
-						friendCheck.add(friendsIterator.next());
-					}
-					if(!friendCheck.contains(friendField.getText())) {
-						currentProfile.addFriend(friendField.getText());
-						database.addProfile(currentProfile);
-						profile = database.getProfile(friendField.getText());
-						profile.addFriend(currentProfile.getName());
-						database.addProfile(profile);
-						println("Add Friend: " + friendField.getText() + ": " + currentProfile.toString());
-					} else {
-						println(currentProfile.getName() + " already has that friend.");
-					}
+					if(database.getProfile(friendField.getText()) != )
+						Iterator<String> friendsIterator = currentProfile.getFriends();
+						while(friendsIterator.hasNext()) {
+							friendCheck.add(friendsIterator.next());
+						}
+						if(!friendCheck.contains(friendField.getText())) {
+							currentProfile.addFriend(friendField.getText());
+							database.addProfile(currentProfile);
+							profile = database.getProfile(friendField.getText());
+							profile.addFriend(currentProfile.getName());
+							database.addProfile(profile);
+							println("Add Friend: " + friendField.getText() + ": " + currentProfile.toString());
+						} else {
+							println(currentProfile.getName() + " already has that friend.");
+						}
 				} else {
 					println("That profile does not exist.");
 				}
