@@ -106,6 +106,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			GImage image = null;
 			try {
 				image = new GImage(pictureField.getText());
+				
 			} catch(ErrorException ex) {
 				
 			}
