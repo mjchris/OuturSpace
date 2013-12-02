@@ -57,7 +57,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 	public void deleteProfile(String name) {
 		if(containsProfile(name)) {
 			while(profileMap.get(name).getFriends().hasNext()) {
-				profileMap.get(name).getFriends().next()
+				profileMap.get(profileMap.get(name).getFriends().next()).removeFriend(name);
 			}
 			profileMap.remove(name);
 		}
