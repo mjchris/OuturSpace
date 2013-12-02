@@ -10,11 +10,11 @@ import java.util.*;
 
 public class FacePamphletDatabase implements FacePamphletConstants {
 
-	/** 
-	 * Constructor
-	 * This method takes care of any initialization needed for 
-	 * the database.
-	 */
+/* Constructor: FacePamphletDatabase() */
+/** 
+ * This method takes care of any initialization needed for 
+ * the database.
+ */
 	public FacePamphletDatabase() {
 		// You fill this in
 	}
