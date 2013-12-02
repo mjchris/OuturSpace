@@ -21,6 +21,9 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 	
 /* Instance variable for FacePamphletDatabase database */
 	private FacePamphletDatabase database = new FacePamphletDatabase();
+	
+/* Instance variable for FacePamphletCanvas canvas */
+	
 
 /* Instance variable for JTextFields */
 	private JTextField nameField = new JTextField(TEXT_FIELD_SIZE);
