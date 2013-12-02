@@ -103,6 +103,11 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			statusField.setText("");
 		}
 		if((e.getSource().equals(pictureField) || e.getActionCommand() == "Change Picture") && !pictureField.getText().isEmpty()) {
+			try {
+				GImage image = new GImage(pictureField.getText());
+			} catch(ErrorException ex) {
+				
+			}
 			GImage image = new GImage(pictureField.getText());
 			profile.setImage(image);
 			pictureField.setText("");
