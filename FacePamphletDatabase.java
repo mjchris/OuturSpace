@@ -38,7 +38,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 /* Method: getProfile(name) */
 /** 
  * This method returns the profile associated with the given name 
- * in the database.  If there is no profile in the database with 
+ * in the database. If there is no profile in the database with 
  * the given name, the method returns null.
  */
 	public FacePamphletProfile getProfile(String name) {
@@ -48,7 +48,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 /* Method: deleteProfile(name) */
 /** 
  * This method removes the profile associated with the given name
- * from the database.  It also updates the list of friends of all
+ * from the database. It also updates the list of friends of all
  * other profiles in the database to make sure that this name is
  * removed from the list of friends of any other profile.
  * 
@@ -64,7 +64,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 /* Method: containsProfile(name) */
 /** 
  * This method returns true if there is a profile in the database 
- * that has the given name.  It returns false otherwise.
+ * that has the given name. It returns false otherwise.
  */
 	public boolean containsProfile(String name) {
 		return profileMap.containsKey(name);
