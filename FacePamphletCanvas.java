@@ -32,7 +32,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		// You fill this in
 	}
 	
-	
+/* Method displayProfile(profile) */
 	/** 
 	 * This method displays the given profile on the canvas.  The 
 	 * canvas is first cleared of all existing items (including 
