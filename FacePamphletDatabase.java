@@ -10,7 +10,8 @@ import java.util.*;
 
 public class FacePamphletDatabase implements FacePamphletConstants {
 	
-/ *
+/* Instance variable for profileMap */
+	
 
 /* Constructor: FacePamphletDatabase() */
 /** 
