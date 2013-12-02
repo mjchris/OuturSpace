@@ -59,6 +59,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 			while(profileMap.get(name).getFriends().hasNext()) {
 				FacePamphletProfile profile = profileMap.get(profileMap.get(name).getFriends().next());
 				profile.removeFriend(name);
+				addProfile(profile);
 			}
 			profileMap.remove(name);
 		}
