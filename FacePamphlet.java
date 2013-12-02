@@ -15,6 +15,9 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 	
 /* Instance variable for FacePamphletProfile profile */
 	public FacePamphletProfile profile;
+	
+/* Instance variable for FacePamphletDatabase profileDatabase */
+	public FacePamphletDatabase profileDatabase;
 
 /* Instance variable for JTextFields */
 	private JTextField nameField = new JTextField(TEXT_FIELD_SIZE);
