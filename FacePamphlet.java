@@ -137,30 +137,29 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			pictureField.setText("");
 		}
 		if(e.getActionCommand() == "Add Friend" && !friendField.getText().isEmpty()) {
-			if()
-				ArrayList<String> friendCheck = new ArrayList<String>();
-				if(currentProfile != null) {
-					if(database.containsProfile(friendField.getText())) {
-						Iterator<String> friendsIterator = currentProfile.getFriends();
-						while(friendsIterator.hasNext()) {
-							friendCheck.add(friendsIterator.next());
-						}
-						if(!friendCheck.contains(friendField.getText())) {
-							currentProfile.addFriend(friendField.getText());
-							database.addProfile(currentProfile);
-							profile = database.getProfile(friendField.getText());
-							profile.addFriend(currentProfile.getName());
-							database.addProfile(profile);
-							println("Add Friend: " + friendField.getText() + ": " + currentProfile.toString());
-						} else {
-							println(currentProfile.getName() + " already has that friend.");
-						}
+			ArrayList<String> friendCheck = new ArrayList<String>();
+			if(currentProfile != null) {
+				if(database.containsProfile(friendField.getText())) {
+					Iterator<String> friendsIterator = currentProfile.getFriends();
+					while(friendsIterator.hasNext()) {
+						friendCheck.add(friendsIterator.next());
+					}
+					if(!friendCheck.contains(friendField.getText())) {
+						currentProfile.addFriend(friendField.getText());
+						database.addProfile(currentProfile);
+						profile = database.getProfile(friendField.getText());
+						profile.addFriend(currentProfile.getName());
+						database.addProfile(profile);
+						println("Add Friend: " + friendField.getText() + ": " + currentProfile.toString());
 					} else {
-						println("That profile does not exist.");
+						println(currentProfile.getName() + " already has that friend.");
 					}
 				} else {
-					println("Select a profile first.");
+					println("That profile does not exist.");
 				}
+			} else {
+				println("Select a profile first.");
+			}
 			if(currentProfile == null) {
 				println("--> No current profile");
 			} else {
