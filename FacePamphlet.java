@@ -151,7 +151,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 						database.addProfile(profile);
 						println("Add Friend: " + friendField.getText() + ": " + currentProfile.toString());
 					} else {
-						println(currentProfile.getName() + " already has that friend");
+						println(currentProfile.getName() + " already has that friend.");
 					}
 				} else {
 					println("That profile does not exist.");
@@ -181,7 +181,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 						database.addProfile(profile);
 						println("Remove Friend: " + friendField.getText() + ": " + currentProfile.toString());
 					} else {
-						println(currentProfile.getName() + " does not have that friend");
+						println(currentProfile.getName() + " does not have that friend.");
 					}
 				}
 			}
