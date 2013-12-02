@@ -64,7 +64,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 				database.addProfile(profile);
 				println("Add: new profile: " + profile.toString());
 			} else {
-				println("That profile already exists.");
+				println("Add: profile for " + nameField.getText() + " already exists: " + profile.toString());
 			}
 			nameField.setText("");
 		}
