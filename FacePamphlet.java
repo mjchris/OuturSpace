@@ -9,6 +9,8 @@ import acm.program.*;
 import acm.graphics.*;
 import acm.util.*;
 import java.awt.event.*;
+import java.util.ArrayList;
+
 import javax.swing.*;
 
 public class FacePamphlet extends ConsoleProgram implements FacePamphletConstants {
@@ -122,7 +124,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			if(currentProfile != null) {
 				if(database.containsProfile(friendField.getText())) {
 					while(currentProfile.getFriends().hasNext()) {
-						
+						friendCheck.add(currentProfile.getFriends().next());
 					}
 				}
 			} else {
