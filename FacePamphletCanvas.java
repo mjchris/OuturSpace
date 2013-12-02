@@ -46,5 +46,4 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		// You fill this in
 	}
 
-	
 }
