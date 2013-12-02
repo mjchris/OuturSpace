@@ -110,7 +110,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 					database.addProfile(currentProfile);
 					println("Change Picture: " + pictureField.getText() + ": " + currentProfile.toString());
 				} catch(ErrorException ex) {
-					
+					println("That picture does not exist.");
 				}
 			} else {
 				println("Select a profile first.");
