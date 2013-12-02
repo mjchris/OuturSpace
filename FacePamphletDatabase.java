@@ -42,8 +42,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
  * the given name, the method returns null.
  */
 	public FacePamphletProfile getProfile(String name) {
-		// You fill this in.  Currently always returns null.
-		return null;
+		return profileMap.get(name);
 	}
 	
 /* Method: deleteProfile(name) */
