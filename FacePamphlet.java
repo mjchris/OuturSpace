@@ -97,7 +97,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 				currentProfile.setStatus(statusField.getText());
 				
 			} else {
-				println("Select a profile first.")
+				println("Select a profile first.");
 			}
 			profile.setStatus(statusField.getText());
 			println(profile.toString());
