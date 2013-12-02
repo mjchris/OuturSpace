@@ -6,7 +6,6 @@
  * display when the window is resized.
  */
 
-
 import acm.graphics.*;
 import java.awt.*;
 import java.util.*;
