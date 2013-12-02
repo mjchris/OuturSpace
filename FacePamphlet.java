@@ -31,6 +31,11 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 	private JTextField pictureField = new JTextField(TEXT_FIELD_SIZE);
 	private JTextField friendField = new JTextField(TEXT_FIELD_SIZE);
 
+/* Constructor: FacePamphlet() */
+	public FacePamphlet() {
+		
+	}
+
 /* Method: init() */
 /**
  * This method has the responsibility for initializing the 
