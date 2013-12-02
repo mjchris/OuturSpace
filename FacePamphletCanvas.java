@@ -15,7 +15,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 /* Constructor: FacePamphletCanvas() */
 /** 
  * This method takes care of any initialization needed for 
- * the display
+ * the display.
  */
 	public FacePamphletCanvas() {
 		// You fill this in
