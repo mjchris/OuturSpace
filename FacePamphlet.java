@@ -96,6 +96,8 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 			if(currentProfile != null) {
 				currentProfile.setStatus(statusField.getText());
 				
+			} else {
+				
 			}
 			profile.setStatus(statusField.getText());
 			println(profile.toString());
