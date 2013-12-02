@@ -94,6 +94,11 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 				println("Lookup: profile for " + nameField.getText() + " does not exist");
 			}
 			currentProfile = profile;
+			if(currentProfile == null) {
+				println("--> No current profile");
+			} else {
+				println("--> Current profile: " + currentProfile.toString());
+			}
 			nameField.setText("");
 		}
 		if((e.getSource().equals(statusField) || e.getActionCommand() == "Change Status") && !statusField.getText().isEmpty()) {
