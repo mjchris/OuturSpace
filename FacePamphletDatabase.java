@@ -58,11 +58,11 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 		// You fill this in
 	}
 
-	
-	/** 
-	 * This method returns true if there is a profile in the database 
-	 * that has the given name.  It returns false otherwise.
-	 */
+/* Method: containsProfile(name) */
+/** 
+ * This method returns true if there is a profile in the database 
+ * that has the given name.  It returns false otherwise.
+ */
 	public boolean containsProfile(String name) {
 		// You fill this in.  Currently always returns false.
 		return false;
