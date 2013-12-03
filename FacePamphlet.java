@@ -158,7 +158,10 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		}
 		if(e.getActionCommand() == "Remove Picture") {
 			if(currentProfile != null) {
-				
+				GImage image = null;
+				currentProfile.setImage(image);
+				database.addProfile(currentProfile);
+				msg = "Picture removed";
 			}
 		}
 		if(e.getActionCommand() == "Add Friend" && !friendField.getText().isEmpty()) {
