@@ -131,7 +131,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			try {
 				BufferedReader fileReader = new BufferedReader(new FileReader(fileField.getText()));
 				
-				msg = "Social network loaded";
+				msg = "Loaded file " + fileField.getText();
 			} catch(IOException ex) {
 				msg = "Unable to open file " + fileField.getText());
 			}
