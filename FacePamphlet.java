@@ -50,6 +50,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		add(new JButton("Lookup"), NORTH);
 		add(statusField, WEST);
 		add(new JButton("Change Status"), WEST);
+		add(new JButton("Remove Status"), WEST);
 		add(new JLabel(EMPTY_LABEL_TEXT), WEST);
 		add(pictureField, WEST);
 		add(new JButton("Change Picture"), WEST);
