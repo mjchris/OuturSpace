@@ -71,7 +71,10 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 	
 /* Method: addStatus(profile) */
 /**
- * 
+ * This method adds the status of the current profile to the canvas.
  */
+	public void addStatus(FacePamphletProfile profile) {
+		
+	}
 
 }
