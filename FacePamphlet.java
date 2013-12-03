@@ -133,7 +133,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				
 				msg = "Social network loaded";
 			} catch(IOException ex) {
-				msg = "Unable to open file );
+				msg = "Unable to open file " + fileField.getText());
 			}
 		}
 		if(e.getActionCommand() == "Save" && !fileField.getText().isEmpty()) {
