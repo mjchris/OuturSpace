@@ -75,7 +75,9 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		friendLabel.setLocation(getWidth()/2, TOP_MARGIN + name.getAscent() + IMAGE_MARGIN);
 		add(friendLabel);
 		Iterator<String> friendsIterator = profile.getFriends();
+		int friendCounter = 0;
 		while(friendsIterator.hasNext()) {
+			friendCounter++;
 			GLabel friend = new GLabel(friendsIterator.next());
 			friend.setFont(PROFILE_FRIEND_FONT);
 			friend.setLocation(getWidth()/2, friendLabel.getY() + )
