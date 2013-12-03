@@ -57,5 +57,8 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 /**
  * This method adds the name of the current profile to the canvas.
  */
+	public void addName(FacePamphletProfile profile) {
+		
+	}
 
 }
