@@ -54,7 +54,8 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 	
 /* Method: addName(profile) */
 /**
- * This method adds the name, picture, and status of the current profile to the canvas.
+ * This method adds the name, picture, and status of the current
+ * profile to the canvas.
  */
 	public void addPrimaryInfo(FacePamphletProfile profile) {
 		GLabel name = new GLabel(profile.getName());
