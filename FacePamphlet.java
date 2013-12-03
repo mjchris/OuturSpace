@@ -135,7 +135,9 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			statusField.setText("");
 		}
 		if(e.getActionCommand() = "Remove Status") {
-			
+			if(currentProfile != null) {
+				status = "";
+			}
 		}
 		if((e.getSource().equals(pictureField) || e.getActionCommand() == "Change Picture") && !pictureField.getText().isEmpty()) {
 			if(currentProfile != null) {
