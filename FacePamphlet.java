@@ -163,7 +163,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				database.addProfile(currentProfile);
 				msg = "Picture removed";
 			} else {
-				
+				msg = "Please select a profile to remove picture";
 			}
 		}
 		if(e.getActionCommand() == "Add Friend" && !friendField.getText().isEmpty()) {
