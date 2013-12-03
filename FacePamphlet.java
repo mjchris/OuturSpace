@@ -76,7 +76,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				println("Add: new profile: " + profile.toString());
 			} else {
 				profile = database.getProfile(nameField.getText());
-				
+				canvas.showMessage()
 			}
 			currentProfile = profile;
 			canvas.displayProfile(currentProfile);
