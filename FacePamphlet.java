@@ -27,6 +27,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 
 /* Instance variable for JTextFields */
 	private JTextField nameField = new JTextField(TEXT_FIELD_SIZE);
+	private JTextField fileField = new JTextField(TEXT_FIELD_SIZE);
 	private JTextField statusField = new JTextField(TEXT_FIELD_SIZE);
 	private JTextField pictureField = new JTextField(TEXT_FIELD_SIZE);
 	private JTextField friendField = new JTextField(TEXT_FIELD_SIZE);
