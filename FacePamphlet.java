@@ -103,7 +103,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			}
 			currentProfile = profile;
 			if(currentProfile == null) {
-				println("--> No current profile");
+				canvas.removeAll();
 			} else {
 				println("--> Current profile: " + currentProfile.toString());
 			}
