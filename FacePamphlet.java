@@ -102,7 +102,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				msg = "Displaying " + nameField.getText();
 			} else {
 				profile = null;
-				msg = 
+				msg = "A profile with the name " + nameField.getText() + " does not exist";
 			}
 			currentProfile = profile;
 			if(currentProfile == null) {
