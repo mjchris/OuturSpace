@@ -69,7 +69,9 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
  * This method adds the picture of the current profile to the canvas.
  */
 	public void addPicture(FacePamphletProfile profile) {
-		
+		if(profile.getImage(profile) != null) {
+			
+		}
 	}
 	
 /* Method: addStatus(profile) */
