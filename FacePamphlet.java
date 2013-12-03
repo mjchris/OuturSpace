@@ -142,6 +142,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				canvas.displayProfile(currentProfile);
 			} else {
 				msg = "Please select a profile to change picture";
+				canvas.removeAll();
 			}
 			if(currentProfile == null) {
 				canvas.removeAll();
