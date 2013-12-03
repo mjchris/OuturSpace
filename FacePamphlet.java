@@ -173,9 +173,9 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				println("Select a profile first.");
 			}
 			if(currentProfile == null) {
-				println("--> No current profile");
+				canvas.removeAll();
 			} else {
-				println("--> Current profile: " + currentProfile.toString());
+				canvas.displayProfile(currentProfile);
 			}
 			friendField.setText("");
 		}
