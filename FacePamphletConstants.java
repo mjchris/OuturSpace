@@ -74,5 +74,9 @@ public interface FacePamphletConstants {
 	 *  the bottom of the Image and the top of the Status component 
 	 *  in the profile */		
 	public static final double STATUS_MARGIN = 20;
+	
+	/** The number of vertical pixels in the vertical margin between
+	 *  the bottom of each friend listed in the profile	*/
+	public static final double 
 
 }
