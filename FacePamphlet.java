@@ -207,7 +207,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 						database.addProfile(profile);
 						msg = friendField.getText() + " removed as a friend";
 					} else {
-						println(currentProfile.getName() + " does not have that friend.");
+						msg = currentProfile.getName() + " does not have " + friendField.getText() + " as a friend";
 					}
 				} else {
 					println("That profile does not exist.");
