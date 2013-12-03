@@ -66,9 +66,11 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 			add(noImage);
 		}
 		GLabel status;
-		if(profile.getStatus() != null) {
+		if(profile.getStatus() == "") {
+			status = new GLabel("No current status");
 			status = new GLabel(profile.getName() + " is " + profile.getStatus());
 		} else {
+			status = new GLabel(profile.getName() + " is " + profile.getStatus());
 			status = new GLabel("No current status");
 		}
 		status.setFont(PROFILE_STATUS_FONT);
