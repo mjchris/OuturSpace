@@ -53,6 +53,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		add(new JLabel(EMPTY_LABEL_TEXT), WEST);
 		add(pictureField, WEST);
 		add(new JButton("Change Picture"), WEST);
+		add(new JButton("Remove Picture"), WEST);
 		add(new JLabel(EMPTY_LABEL_TEXT), WEST);
 		add(friendField, WEST);
 		add(new JButton("Add Friend"), WEST);
