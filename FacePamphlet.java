@@ -67,6 +67,9 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 /**
  * This class is responsible for detecting when the buttons are
  * clicked or interactors are used.
+ * 
+ * EXTENSION: Added message to account for user trying to add
+ * a profile as its own friend.
  */
     public void actionPerformed(ActionEvent e) {
     	String msg;
