@@ -191,11 +191,6 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				msg = "Please select a profile to add friend";
 				canvas.removeAll();
 			}
-			if(currentProfile == null) {
-				canvas.removeAll();
-			} else {
-				canvas.displayProfile(currentProfile);
-			}
 			canvas.showMessage(msg);
 			friendField.setText("");
 		}
