@@ -167,7 +167,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 							database.addProfile(profile);
 							msg = friendField.getText() + " added as a friend";
 						} else {
-							msg = currentProfile.getName() + 
+							msg = currentProfile.getName() + " already has " + 
 						}	
 					} else {
 						println("Users cannot be friends with themselves.");
