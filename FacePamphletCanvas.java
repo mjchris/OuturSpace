@@ -75,46 +75,6 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		friendLabel.setLocation(getWidth()/2, TOP_MARGIN + name.getAscent() + IMAGE_MARGIN);
 		add(friendLabel);
 	}
-	
-/* Method: addName(profile) */
-/**
- * This method adds the name, picture, and status of the current
- * profile to the canvas.
- */
-	public void addPrimaryInfo(FacePamphletProfile profile) {
-		GLabel name = new GLabel(profile.getName());
-		name.setFont(PROFILE_NAME_FONT);
-		name.setLocation(LEFT_MARGIN, TOP_MARGIN + name.getAscent());
-		add(name);
-		GImage image = profile.getImage();
-		if(image != null) {
-			image.setBounds(LEFT_MARGIN, name.getY() + IMAGE_MARGIN, IMAGE_WIDTH, IMAGE_HEIGHT);
-			add(image);
-		} else {
-			GRect imageFill = new GRect(LEFT_MARGIN, name.getY() + IMAGE_MARGIN, IMAGE_WIDTH, IMAGE_HEIGHT);
-			add(imageFill);
-			GLabel noImage = new GLabel("No Image");
-			noImage.setFont(PROFILE_IMAGE_FONT);
-			noImage.setLocation(LEFT_MARGIN + (IMAGE_WIDTH - noImage.getWidth())/2, imageFill.getY() + (IMAGE_HEIGHT + noImage.getAscent())/2);
-			add(noImage);
-		}
-		if(profile.getStatus() != null) {
-			GLabel status = new GLabel(profile.getStatus());
-			status.setFont(PROFILE_STATUS_FONT);
-			status.setLocation(LEFT_MARGIN, TOP_MARGIN + name.getAscent() + IMAGE_MARGIN + IMAGE_HEIGHT + STATUS_MARGIN + status.getAscent());
-			add(status);
-		}
-	}
 
-/* Method: addFriends(profile) */
-/**
- * This method adds the friends of the current profile to the canvas.
- */
-	public void addFriends(FacePamphletProfile profile) {
-		GLabel friendLabel = new GLabel("Friends:");
-		friendLabel.setFont(PROFILE_FRIEND_LABEL_FONT);
-		friendLabel.setLocation(getWidth()/2, TOP_MARGIN + );
-		add(friendLabel);
-	}
 	
 }
