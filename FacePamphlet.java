@@ -69,8 +69,8 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
  * clicked or interactors are used.
  */
     public void actionPerformed(ActionEvent e) {
+    	String msg;
 		if(e.getActionCommand() == "Add" && !nameField.getText().isEmpty()) {
-			String msg;
 			if(!database.containsProfile(nameField.getText())) {
 				profile = new FacePamphletProfile(nameField.getText());
 				database.addProfile(profile);
