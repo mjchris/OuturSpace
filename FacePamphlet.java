@@ -109,6 +109,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			} else {
 				profile = null;
 				msg = "A profile with the name " + nameField.getText() + " does not exist";
+				canvas.removeAll();
 			}
 			currentProfile = profile;
 			if(currentProfile == null) {
