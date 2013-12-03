@@ -62,5 +62,8 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 	}
 
 /* Method: addImage(profile) */
+/**
+ * 
+ */
 
 }
