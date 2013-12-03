@@ -72,7 +72,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 			add(imageFill);
 			GLabel noImage = new GLabel("No Image");
 			noImage.setFont(PROFILE_IMAGE_FONT);
-			noImage.setLocation(LEFT_MARGIN + (IMAGE_WIDTH - noImage.getWidth())/2, );
+			noImage.setLocation(LEFT_MARGIN + (IMAGE_WIDTH - noImage.getWidth())/2, imageFill.getY() + (IMAGE_HEIGHT - noImage.getAscent())/2);
 			add(noImage);
 		}
 	}
