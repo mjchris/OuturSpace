@@ -140,7 +140,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 					println("That picture does not exist.");
 				}
 			} else {
-				println("Select a profile first.");
+				msg = "Please select a profile to change picture";
 			}
 			if(currentProfile == null) {
 				canvas.removeAll();
