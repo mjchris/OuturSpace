@@ -90,6 +90,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		GLabel friendLabel = new GLabel("Friends:");
 		friendLabel.setFont(PROFILE_FRIEND_LABEL_FONT);
 		friendLabel.setLocation();
+		add(friendLabel);
 	}
 	
 }
