@@ -134,6 +134,9 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			canvas.showMessage(msg);
 			statusField.setText("");
 		}
+		if(e.getActionCommand() = "Remove Status") {
+			
+		}
 		if((e.getSource().equals(pictureField) || e.getActionCommand() == "Change Picture") && !pictureField.getText().isEmpty()) {
 			if(currentProfile != null) {
 				try {
