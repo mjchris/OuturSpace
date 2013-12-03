@@ -128,6 +128,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		}
 		if(e.getActionCommand() == "Load" && !fileField.getText().isEmpty()) {
 			try {
+				
 				GImage image = new GImage(pictureField.getText());
 				currentProfile.setImage(image);
 				database.addProfile(currentProfile);
