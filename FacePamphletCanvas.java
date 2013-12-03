@@ -77,7 +77,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		Iterator<String> friendsIterator = profile.getFriends();
 		while(friendsIterator.hasNext()) {
 			GLabel friend = new GLabel(friendsIterator.next());
-			
+			friend.setFont(PROFILE_FRIEND_FONT);
 		}
 	}
 	
