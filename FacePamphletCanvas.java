@@ -50,6 +50,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		removeAll();
 		GLabel name = new GLabel(profile.getName());
 		name.setFont(PROFILE_NAME_FONT);
+		name.setColor(Color.BLUE);
 		name.setLocation(LEFT_MARGIN, TOP_MARGIN + name.getAscent());
 		add(name);
 		GImage image = profile.getImage();
