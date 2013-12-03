@@ -19,7 +19,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
  * the display.
  */
 	public FacePamphletCanvas() {
-		Color color = 
+		Color color = new Color(0,0,0);
 	}
 
 /* Method: showMessage(msg) */
