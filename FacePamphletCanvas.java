@@ -48,8 +48,29 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
  */
 	public void displayProfile(FacePamphletProfile profile) {
 		removeAll();
-		addPrimaryInfo(profile);
-		addFriends(profile);
+		GLabel name = new GLabel(profile.getName());
+		name.setFont(PROFILE_NAME_FONT);
+		name.setLocation(LEFT_MARGIN, TOP_MARGIN + name.getAscent());
+		add(name);
+		GImage image = profile.getImage();
+		if(image != null) {
+			image.setBounds(LEFT_MARGIN, name.getY() + IMAGE_MARGIN, IMAGE_WIDTH, IMAGE_HEIGHT);
+			add(image);
+		} else {
+			GRect imageFill = new GRect(LEFT_MARGIN, name.getY() + IMAGE_MARGIN, IMAGE_WIDTH, IMAGE_HEIGHT);
+			add(imageFill);
+			GLabel noImage = new GLabel("No Image");
+			noImage.setFont(PROFILE_IMAGE_FONT);
+			noImage.setLocation(LEFT_MARGIN + (IMAGE_WIDTH - noImage.getWidth())/2, imageFill.getY() + (IMAGE_HEIGHT + noImage.getAscent())/2);
+			add(noImage);
+		}
+		if(profile.getStatus() != null) {
+			GLabel status = new GLabel(profile.getStatus());
+			status.setFont(PROFILE_STATUS_FONT);
+			status.setLocation(LEFT_MARGIN, TOP_MARGIN + name.getAscent() + IMAGE_MARGIN + IMAGE_HEIGHT + STATUS_MARGIN + status.getAscent());
+			add(status);
+		}
+		
 	}
 	
 /* Method: addName(profile) */
