@@ -75,6 +75,8 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 	}
 
 /* Method: loadFile(file) */
-	
+/**
+ * EXTENSION: This method loads a social network file
+ */
 
 }
