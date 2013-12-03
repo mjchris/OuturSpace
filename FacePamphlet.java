@@ -33,7 +33,7 @@ public class FacePamphlet extends ConsoleProgram implements FacePamphletConstant
 
 /* Constructor: FacePamphlet() */
 	public FacePamphlet() {
-//		add(canvas);
+		add(canvas);
 	}
 
 /* Method: init() */
