@@ -215,7 +215,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				} else {
 					msg = friendField.getText() + " does not exist";
 				}
-				
+				canvas.displayProfile(currentProfile);
 			} else {
 				msg = "Please select a profile to remove friend";
 				canvas.removeAll();
