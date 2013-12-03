@@ -173,7 +173,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 						println("Users cannot be friends with themselves.");
 					}
 				} else {
-					println("That profile does not exist.");
+					msg = friendField.getText() + " does not exist";
 				}
 			} else {
 				msg = "Please select a profile to add friend";
