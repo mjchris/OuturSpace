@@ -75,6 +75,5 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		friendLabel.setLocation(getWidth()/2, TOP_MARGIN + name.getAscent() + IMAGE_MARGIN);
 		add(friendLabel);
 	}
-
 	
 }
