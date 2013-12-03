@@ -217,6 +217,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				}
 			} else {
 				msg = "Please select a profile to remove friend";
+				canvas.removeAll();
 			}
 			if(currentProfile == null) {
 				canvas.removeAll();
