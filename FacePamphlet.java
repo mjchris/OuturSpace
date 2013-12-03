@@ -90,6 +90,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				println("Delete: profile for " + nameField.getText() + " does not exist.");
 			}
 			currentProfile = null;
+			canvas.removeAll();
 			nameField.setText("");
 		}
 		if(e.getActionCommand() == "Lookup" && !nameField.getText().isEmpty()) {
