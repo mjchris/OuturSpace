@@ -110,6 +110,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			} else {
 				canvas.displayProfile(currentProfile);
 			}
+			canvas.showMessage(msg);
 			nameField.setText("");
 		}
 		if((e.getSource().equals(statusField) || e.getActionCommand() == "Change Status") && !statusField.getText().isEmpty()) {
