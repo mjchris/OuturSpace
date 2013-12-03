@@ -129,6 +129,9 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		if(e.getActionCommand() == "Load" && !fileField.getText().isEmpty()) {
 			
 		}
+		if(e.getActionCommand() == "Save" && !fileField.getText().isEmpty()) {
+			
+		}
 		if((e.getSource().equals(statusField) || e.getActionCommand() == "Change Status") && !statusField.getText().isEmpty()) {
 			if(currentProfile != null) {
 				currentProfile.setStatus(statusField.getText());
