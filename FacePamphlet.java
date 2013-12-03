@@ -76,7 +76,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
  * This class is responsible for detecting when the buttons are
  * clicked or interactors are used.
  * 
- * EXTENSION: Allows user to load social network file.
+ * EXTENSION: Allows user to load and save social network file.
  * 
  * EXTENSION: Allows user to remove status from a profile.
  * 
