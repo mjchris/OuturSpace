@@ -74,10 +74,10 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			if(!database.containsProfile(nameField.getText())) {
 				profile = new FacePamphletProfile(nameField.getText());
 				database.addProfile(profile);
-				String msg = "New profile created";
+				msg = "New profile created";
 			} else {
 				profile = database.getProfile(nameField.getText());
-				String msg = "A profile with the name " + profile.getName() + " already exists";
+				msg = "A profile with the name " + profile.getName() + " already exists";
 			}
 			currentProfile = profile;
 			canvas.displayProfile(currentProfile);
