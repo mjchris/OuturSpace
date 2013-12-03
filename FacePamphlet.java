@@ -119,7 +119,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				database.addProfile(currentProfile);
 				println("Change Status: " + currentProfile.toString());
 			} else {
-				println("Select a profile first.");
+				msg = "Please select a profile to change status";
 			}
 			if(currentProfile == null) {
 				canvas.removeAll();
