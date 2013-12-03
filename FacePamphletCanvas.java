@@ -62,6 +62,10 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		name.setFont(PROFILE_NAME_FONT);
 		name.setLocation(LEFT_MARGIN, TOP_MARGIN + name.getAscent());
 		add(name);
+		GImage image = profile.getImage();
+		if(image != null) {
+			add(image, LEFT_MARGIN, name.getLocation().getY() + IMAGE_MARGIN);
+		}
 	}
 
 /* Method: addPicture(profile) */
