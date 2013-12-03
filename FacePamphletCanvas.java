@@ -74,7 +74,9 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 			noImage.setLocation(LEFT_MARGIN + (IMAGE_WIDTH - noImage.getWidth())/2, imageFill.getY() + (IMAGE_HEIGHT + noImage.getAscent())/2);
 			add(noImage);
 		}
-		if()
+		if(profile.getStatus() != null) {
+			
+		}
 	}
 
 /* Method: addFriends(profile) */
