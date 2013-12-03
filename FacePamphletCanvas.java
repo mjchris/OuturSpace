@@ -87,7 +87,8 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
  * This method adds the friends of the current profile to the canvas.
  */
 	public void addFriends(FacePamphletProfile profile) {
-		GLabel friends
+		GLabel friendLabel = new GLabel("Friends:");
+		
 	}
 	
 }
