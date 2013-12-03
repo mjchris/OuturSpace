@@ -79,6 +79,8 @@ public class FacePamphletDatabase implements FacePamphletConstants {
  * EXTENSION: This method loads a social network file and adds
  * all the profiles to profileMap.
  */
-	public 
+	public void loadFile(String file) {
+		
+	}
 
 }
