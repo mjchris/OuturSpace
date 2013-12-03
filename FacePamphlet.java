@@ -167,6 +167,8 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			}
 			if(currentProfile == null) {
 				canvas.removeAll();
+			} else {
+				canvas.displayProfile(currentProfile);
 			}
 		}
 		if(e.getActionCommand() == "Add Friend" && !friendField.getText().isEmpty()) {
