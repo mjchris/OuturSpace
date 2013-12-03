@@ -13,7 +13,7 @@ import java.util.*;
 
 import javax.swing.*;
 
-public class FacePamphlet extends Program implements FacePamphletConstants {
+public class FacePamphlet extends ConsoleProgram implements FacePamphletConstants {
 	
 /* Instance variable for FacePamphletProfile profile and currentProfile */
 	private FacePamphletProfile profile;
