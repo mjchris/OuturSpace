@@ -130,10 +130,8 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		if(e.getActionCommand() == "Load" && !fileField.getText().isEmpty()) {
 			try {
 				BufferedReader fileReader = new BufferedReader(new FileReader(fileField.getText()));
-				GImage image = new GImage(pictureField.getText());
-				currentProfile.setImage(image);
-				database.addProfile(currentProfile);
-				msg = "Picture updated";
+				
+				msg = "Social network loaded";
 			} catch(ErrorException ex) {
 				msg = "Unable to open social network file: " + fileField.getText();
 			}
