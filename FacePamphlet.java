@@ -137,7 +137,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 					database.addProfile(currentProfile);
 					msg = "Picture updated";
 				} catch(ErrorException ex) {
-					println("That picture does not exist.");
+					msg = "Unable to open image file: " + pictureField.getText();
 				}
 			} else {
 				msg = "Please select a profile to change picture";
