@@ -165,7 +165,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 							profile = database.getProfile(friendField.getText());
 							profile.addFriend(currentProfile.getName());
 							database.addProfile(profile);
-							println("Add Friend: " + friendField.getText() + ": " + currentProfile.toString());
+							msg = 
 						} else {
 							println(currentProfile.getName() + " already has that friend.");
 						}	
