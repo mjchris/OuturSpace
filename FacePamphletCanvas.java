@@ -66,6 +66,8 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		if(image != null) {
 			image.setBounds(LEFT_MARGIN, name.getY() + IMAGE_MARGIN, IMAGE_WIDTH, IMAGE_HEIGHT);
 			add(image);
+		} else {
+			add(new GRect())
 		}
 	}
 
