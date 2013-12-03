@@ -74,4 +74,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 		return profileMap.containsKey(name);
 	}
 
+/* Method: loadFile(filename) */
+	
+
 }
