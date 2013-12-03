@@ -69,7 +69,9 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
  * This class is responsible for detecting when the buttons are
  * clicked or interactors are used.
  * 
- * EXTENSION: 
+ * EXTENSION: Allows user to remove status from a profile.
+ * 
+ * EXTENSION: Allows user to remove picture from a profile.
  * 
  * EXTENSION: Added message to account for user trying to add
  * a profile as its own friend.
