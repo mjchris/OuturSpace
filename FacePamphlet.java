@@ -135,7 +135,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 					GImage image = new GImage(pictureField.getText());
 					currentProfile.setImage(image);
 					database.addProfile(currentProfile);
-					println("Change Picture: " + pictureField.getText() + ": " + currentProfile.toString());
+					msg = "Picture updated";
 				} catch(ErrorException ex) {
 					println("That picture does not exist.");
 				}
