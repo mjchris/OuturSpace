@@ -87,7 +87,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		if(e.getActionCommand() == "Delete" && !nameField.getText().isEmpty()) {
 			if(database.containsProfile(nameField.getText())) {
 				database.deleteProfile(nameField.getText());
-				println("Delete: " + nameField.getText());
+				
 			} else {
 				println("Delete: profile for " + nameField.getText() + " does not exist.");
 			}
