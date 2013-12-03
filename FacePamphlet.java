@@ -156,6 +156,9 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			canvas.showMessage(msg);
 			pictureField.setText("");
 		}
+		if(e.getActionCommand() == "Remove Picture") {
+			
+		}
 		if(e.getActionCommand() == "Add Friend" && !friendField.getText().isEmpty()) {
 			ArrayList<String> friendCheck = new ArrayList<String>();
 			if(currentProfile != null) {
