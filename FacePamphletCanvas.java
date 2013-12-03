@@ -71,7 +71,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 	public void addPicture(FacePamphletProfile profile) {
 		GImage image = profile.getImage();
 		if(image != null) {
-			
+			add(image, )
 		} else {
 			
 		}
