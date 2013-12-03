@@ -77,6 +77,6 @@ public interface FacePamphletConstants {
 	
 	/** The number of vertical pixels in the vertical margin between
 	 *  the bottom of each friend listed in the profile	*/
-	public static final double 
+	public static final double FRIEND_MARGIN = 5;
 
 }
