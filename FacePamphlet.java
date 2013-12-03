@@ -176,7 +176,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 					println("That profile does not exist.");
 				}
 			} else {
-				println("Select a profile first.");
+				msg = "Please select a profile to add friend";
 			}
 			if(currentProfile == null) {
 				canvas.removeAll();
