@@ -7,6 +7,7 @@
  */
 
 import java.util.*;
+import java.io.*;
 
 public class FacePamphletDatabase implements FacePamphletConstants {
 	
@@ -79,7 +80,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
  * EXTENSION: This method loads a social network file and adds
  * all the profiles to profileMap.
  */
-	public void loadFile(String file) {
+	public void loadFile(BufferedReader fileReader) {
 		
 	}
 
