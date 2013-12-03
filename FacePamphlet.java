@@ -135,7 +135,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				database.addProfile(currentProfile);
 				msg = "Picture updated";
 			} catch(ErrorException ex) {
-				msg = "Unable to open image file: " + pictureField.getText();
+				msg = "Unable to open social network file: " + pictureField.getText();
 			}
 		}
 		if(e.getActionCommand() == "Save" && !fileField.getText().isEmpty()) {
