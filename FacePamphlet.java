@@ -70,6 +70,8 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
  * 
  * EXTENSION: Added message to account for user trying to add
  * a profile as its own friend.
+ * 
+ * EXTENSION: Allows user to remove friends from a profile.
  */
     public void actionPerformed(ActionEvent e) {
     	String msg;
