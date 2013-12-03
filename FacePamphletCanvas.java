@@ -47,6 +47,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
  */
 	public void displayProfile(FacePamphletProfile profile) {
 		removeAll();
+		
 	}
 
 }
