@@ -133,7 +133,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			try {
 				BufferedReader fileReader = new BufferedReader(new FileReader(fileField.getText()));
 				database.profileMap.clear();
-				database.loadFile();
+				database.loadFile(fileField.getText());
 				msg = "Loaded file " + fileField.getText();
 			} catch(IOException ex) {
 				msg = "Unable to open file " + fileField.getText();
