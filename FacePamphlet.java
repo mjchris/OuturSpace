@@ -153,6 +153,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				currentProfile.setImage(image);
 				database.addProfile(currentProfile);
 				msg = "Picture removed";
+				canvas.displayProfile(currentProfile);
 			} else {
 				msg = "Please select a profile to remove picture";
 			}
