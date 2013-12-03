@@ -77,7 +77,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		if(profile.getStatus() != null) {
 			GLabel status = new GLabel(profile.getStatus());
 			status.setFont(PROFILE_STATUS_FONT);
-			
+			status.setLocation(LEFT_MARGIN, )
 		}
 	}
 
