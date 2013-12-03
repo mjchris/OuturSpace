@@ -48,7 +48,7 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 	public void displayProfile(FacePamphletProfile profile) {
 		removeAll();
 		addName(profile);
-		addImage(profile);
+		addPicture(profile);
 		addStatus(profile);
 		addFriends(profile);
 	}
@@ -61,9 +61,12 @@ public class FacePamphletCanvas extends GCanvas implements FacePamphletConstants
 		
 	}
 
-/* Method: addImage(profile) */
+/* Method: addPicture(profile) */
 /**
- * 
+ * This method adds the picture of the current profile to the canvas.
  */
+	public void addPicture(FacePamphletProfile profile) {
+		
+	}
 
 }
