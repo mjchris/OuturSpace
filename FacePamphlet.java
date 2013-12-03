@@ -10,7 +10,6 @@ import acm.graphics.*;
 import acm.util.*;
 import java.awt.event.*;
 import java.util.*;
-import java.io.*;
 
 import javax.swing.*;
 
@@ -131,7 +130,6 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		}
 		if(e.getActionCommand() == "Load" && !fileField.getText().isEmpty()) {
 			try {
-				BufferedReader fileReader = new BufferedReader(new FileReader(fileField.getText()));
 				database.profileMap.clear();
 				database.loadFile(fileField.getText());
 				msg = "Loaded file " + fileField.getText();
