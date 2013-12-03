@@ -139,6 +139,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				} catch(ErrorException ex) {
 					msg = "Unable to open image file: " + pictureField.getText();
 				}
+				
 			} else {
 				msg = "Please select a profile to change picture";
 			}
