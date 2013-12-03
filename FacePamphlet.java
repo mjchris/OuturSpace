@@ -99,10 +99,10 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		if(e.getActionCommand() == "Lookup" && !nameField.getText().isEmpty()) {
 			if(database.containsProfile(nameField.getText())) {
 				profile = database.getProfile(nameField.getText());
-				msg = "Displaying " + profile.getName();
+				msg = "Displaying " + nameField.getText();
 			} else {
 				profile = null;
-				println("Lookup: profile for " + nameField.getText() + " does not exist.");
+				msg = 
 			}
 			currentProfile = profile;
 			if(currentProfile == null) {
