@@ -79,7 +79,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				println("Add: profile for " + nameField.getText() + " already exists: " + profile.toString());
 			}
 			currentProfile = profile;
-			canvas.displayProfile(currentProfile);
+			println("--> Current profile: " + currentProfile.toString());
 			nameField.setText("");
 		}
 		if(e.getActionCommand() == "Delete" && !nameField.getText().isEmpty()) {
