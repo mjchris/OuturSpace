@@ -20,6 +20,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
  */
 	public FacePamphletDatabase() {
 		profileMap = new HashMap<String, FacePamphletProfile>();
+		
 	}
 	
 /* Method addProfile(profile) */
