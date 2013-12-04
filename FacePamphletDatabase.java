@@ -82,6 +82,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
  */
 	public void loadFile(BufferedReader fileReader) {
 		profileMap.clear();
+		
 	}
 
 }
