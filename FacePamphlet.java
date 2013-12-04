@@ -139,6 +139,7 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 				msg = "Unable to open file " + fileField.getText();
 			}
 			canvas.showMessage(msg);
+			fileField.setText("");
 		}
 		if(e.getActionCommand() == "Save" && !fileField.getText().isEmpty()) {
 			
