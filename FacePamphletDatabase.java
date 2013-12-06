@@ -88,7 +88,6 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 		while(true) {
 			String line = fileReader.readLine();
 			if(line == null) break;
-			
 		}
 	}
 
