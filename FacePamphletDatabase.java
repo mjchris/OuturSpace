@@ -9,6 +9,8 @@
 import java.util.*;
 import java.io.*;
 
+import acm.util.ErrorException;
+
 public class FacePamphletDatabase implements FacePamphletConstants {
 	
 /* Instance variable for profileMap */
@@ -82,7 +84,15 @@ public class FacePamphletDatabase implements FacePamphletConstants {
  */
 	public void loadFile(BufferedReader fileReader) {
 		profileMap.clear();
-		
+		while(true) {
+			String line = rdNameData.readLine();
+			if(line == null) break;
+			NameSurferEntry entry = new NameSurferEntry(line);
+			nameDataMap.put(entry.getName(), entry);
+		}
+	} catch(IOException ex) {
+		throw new ErrorException(ex);
+	}
 	}
 
 }
