@@ -28,7 +28,6 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 
 /* Instance variable for JTextFields */
 	private JTextField nameField = new JTextField(TEXT_FIELD_SIZE);
-	private JTextField fileField = new JTextField(TEXT_FIELD_SIZE);
 	private JTextField statusField = new JTextField(TEXT_FIELD_SIZE);
 	private JTextField pictureField = new JTextField(TEXT_FIELD_SIZE);
 	private JTextField friendField = new JTextField(TEXT_FIELD_SIZE);
@@ -51,9 +50,6 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 		add(new JButton("Delete"), NORTH);
 		add(new JButton("Lookup"), NORTH);
 		add(new JLabel("File"), NORTH);
-		add(fileField, NORTH);
-		add(new JButton("Load"), NORTH);
-		add(new JButton("Save"), NORTH);
 		add(statusField, WEST);
 		add(new JButton("Change Status"), WEST);
 		add(new JButton("Remove Status"), WEST);
@@ -128,20 +124,6 @@ public class FacePamphlet extends Program implements FacePamphletConstants {
 			currentProfile = profile;
 			canvas.showMessage(msg);
 			nameField.setText("");
-		}
-		if(e.getActionCommand() == "Load" && !fileField.getText().isEmpty()) {
-			try {
-				database.profileMap.clear();
-				BufferedReader fileReader = new BufferedReader(new FileReader(fileField.getText()));
-				database.loadFile(fileReader);
-				fileReader.close();
-				msg = "Loaded file " + fileField.getText();
-			} catch(IOException ex) {
-				msg = "Unable to open file " + fileField.getText();
-			}
-			canvas.removeAll();
-			canvas.showMessage(msg);
-			fileField.setText("");
 		}
 		if(e.getActionCommand() == "Save" && !fileField.getText().isEmpty()) {
 			
