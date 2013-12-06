@@ -90,9 +90,6 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 			NameSurferEntry entry = new NameSurferEntry(line);
 			nameDataMap.put(entry.getName(), entry);
 		}
-	} catch(IOException ex) {
-		throw new ErrorException(ex);
-	}
 	}
 
 }
