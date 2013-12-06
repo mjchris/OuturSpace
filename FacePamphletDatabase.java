@@ -88,7 +88,8 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 		while(true) {
 			String line = fileReader.readLine();
 			if(line == null) break;
-			
+			NameSurferEntry entry = new NameSurferEntry(line);
+			nameDataMap.put(entry.getName(), entry);
 		}
 	}
 
