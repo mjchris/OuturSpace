@@ -77,18 +77,4 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 		return profileMap.containsKey(name);
 	}
 
-/* Method: loadFile(file) */
-/**
- * EXTENSION: This method loads a social network file and adds
- * all the profiles to profileMap.
- */
-	public void loadFile(BufferedReader fileReader) {
-		profileMap.clear();
-		int numProfiles = Integer.parseInt(fileReader.readLine());
-		while(true) {
-			String line = fileReader.readLine();
-			if(line == null) break;
-		}
-	}
-
 }
