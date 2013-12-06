@@ -85,7 +85,7 @@ public class FacePamphletDatabase implements FacePamphletConstants {
 	public void loadFile(BufferedReader fileReader) {
 		profileMap.clear();
 		while(true) {
-			String line = rdNameData.readLine();
+			String line = fileReader.readLine();
 			if(line == null) break;
 			NameSurferEntry entry = new NameSurferEntry(line);
 			nameDataMap.put(entry.getName(), entry);
